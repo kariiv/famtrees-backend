@@ -1,0 +1,8 @@
+{
+  "short_name": "famtree",
+  "name": "Take a look back to the history with 'famtrees'",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#E41C1C",
+  "background_color": "#000000"
+}
