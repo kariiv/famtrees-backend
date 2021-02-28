@@ -61,7 +61,9 @@ namespace FamTrees.Infrastructure.Data
                 new PersonParent(3, 1),
                 new PersonParent(3, 2),
                 new PersonParent(4, 3),
+                new PersonParent(4, 48),
                 new PersonParent(5, 3),
+                new PersonParent(5, 48),
                 new PersonParent(6, 3),
                 new PersonParent(6, 8),
                 new PersonParent(7, 3),
@@ -175,6 +177,7 @@ namespace FamTrees.Infrastructure.Data
                 new (1, "Ülle", "Silde", Sex.Female, DateTime.Parse("1952-06-11"), DateTime.MinValue),
                 new (1, "Merle", "Riivik", Sex.Female, DateTime.Parse("1978-09-07"), DateTime.MinValue),
                 new (1, "Eren", "Johanson", Sex.Female, DateTime.Parse("1980-12-03"), DateTime.MinValue),
+                new (1, "Agnes", "Vaimann", Sex.Female, DateTime.Parse("1972-09-29"), DateTime.MinValue),
             };
         }
     }
