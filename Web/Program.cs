@@ -37,6 +37,7 @@ namespace FamTrees.Web
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //webBuilder.UseUrls("http://192.168.8.103:5000", "https://192.168.8.103:5001");
                 });
     }
 }

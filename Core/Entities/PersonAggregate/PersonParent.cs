@@ -15,6 +15,13 @@ namespace FamTrees.Core.Entities.PersonAggregate
         {
             // Ef requirement
         }
+        public PersonParent(int personId, int parentId)
+        {
+            // Ef requirement
+            PersonId = personId;
+            ParentId = parentId;
+        }
+
 
         public PersonParent(Person person, Person parent)
         {

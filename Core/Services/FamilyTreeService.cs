@@ -38,7 +38,6 @@ namespace FamTrees.Core.Services
             {
                 throw new PersonHasParentsException("Person can have only one Mother and Father");
             }
-
             if (items.Count == 1 && items[0].Parent.Sex == parent.Sex)
             {
                 if (parent.Sex == Sex.Male)
@@ -47,8 +46,6 @@ namespace FamTrees.Core.Services
                 }
                 throw new PersonHasParentsException("Person already have a Mother");
             }
-            _logger.LogInformation(person.ToString());
-            _logger.LogInformation(parent.ToString());
             await _parentRepository.AddAsync(new PersonParent(person, parent));
         }
 
