@@ -13,7 +13,6 @@ namespace FamTrees.Infrastructure.Data.Config
             builder.HasKey(p => p.Id);
 
             builder.Property(ci => ci.Id)
-                .UseHiLo("person_hilo")
                 .IsRequired();
 
             builder.Property(ci => ci.FirstName)
